@@ -1,0 +1,174 @@
+db.products.insert({
+	name: "Microsoft Surface",
+	category: "Electronics",
+	model: '7G5-00001',
+	sku: '4979879',
+	img: "http://google.com",
+	price: '499.99',
+	pickup_available: true,
+	description: "Microsoft Surface 3 is the perfect productivity device for school, home, and on the go. It features a 10.8\" Full HD touchscreen display with 1920 x 1280 resolution and is fast, responsive, and can run everything you need. With a thin, light frame that weighs less than 1.5 pounds, it’s the perfect size to take with you anywhere. The optional Surface Pen (sold separately) feels just like an actual pen so it’s easy to draw, take notes, or write music. ",
+	release_date: ISODate("2015-09-01"),
+	specifications: {
+		height: "7.36 inches",
+		width: '10.52 inches',
+		weight: "21.92 ounces",
+		battery_life: "10 hours",
+		display_type: "LCD",
+		touch_screen: "true",
+		memory: "2gb",
+		processor_type: "Intel"
+	},
+	reviews: [
+		{
+			subject: "Great Tablet!",
+			body: "This is a great product very simple to use",
+			rating: "4.5",
+			user: "someuser01",
+			date: ISODate("2015-09-02"),
+			would_recommend: true
+
+		},{
+			subject: "Mixed Reviws!",
+			body: "This is a great product but difficult to use",
+			rating: "2.5",
+			user: "someuser03",
+			date: ISODate("2015-09-04"),
+			would_recommend: false
+
+		},{
+			subject: "Good Tablet!",
+			body: "This is a good product ",
+			rating: "3.5",
+			user: "someuser02",
+			date: ISODate("2015-11-02"),
+			would_recommend: true
+
+		},{
+			subject: "Okayish Tablet!",
+			body: "Not very happy",
+			rating: "1.5",
+			user: "someuser07",
+			date: ISODate("2016-02-05"),
+			would_recommend: false
+
+		}
+	],
+	protection_services: ['damage', 'battery', 'power']
+})
+
+
+db.products.insert({
+	name: "Microsoft Surface 4",
+	category: "Electronics",
+	model: '7G5-00001',
+	sku: '4979879',
+	img: "http://google.com",
+	price: '499.99',
+	pickup_available: true,
+	description: "Microsoft Surface 4 is the perfect productivity device for school, home, and on the go. It features a 10.8\" Full HD touchscreen display with 1920 x 1280 resolution and is fast, responsive, and can run everything you need. With a thin, light frame that weighs less than 1.5 pounds, it’s the perfect size to take with you anywhere. The optional Surface Pen (sold separately) feels just like an actual pen so it’s easy to draw, take notes, or write music. ",
+	release_date: ISODate("2015-09-01"),
+	specifications: {
+		height: "7.36 inches",
+		width: '10.52 inches',
+		weight: "21.92 ounces",
+		battery_life: "10 hours",
+		display_type: "LCD",
+		touch_screen: "true",
+		memory: "2gb",
+		processor_type: "Intel"
+	},
+	reviews: [
+		{
+			subject: "Great Tablet!",
+			body: "This is a great product very simple to use",
+			rating: "4.5",
+			user: "someuser01",
+			date: ISODate("2015-09-02"),
+			would_recommend: true
+
+		},{
+			subject: "Mixed Reviws!",
+			body: "This is a great product but difficult to use",
+			rating: "2.5",
+			user: "someuser03",
+			date: ISODate("2015-09-04"),
+			would_recommend: false
+
+		},{
+			subject: "Good Tablet!",
+			body: "This is a good product ",
+			rating: "3.5",
+			user: "someuser02",
+			date: ISODate("2015-11-02"),
+			would_recommend: true
+
+		},{
+			subject: "Okayish Tablet!",
+			body: "Not very happy",
+			rating: "1.5",
+			user: "someuser07",
+			date: ISODate("2016-02-05"),
+			would_recommend: false
+
+		}
+	],
+	protection_services: ['damage', 'battery', 'power']
+})
+
+db.products.insert({
+	name: "Samsung S7",
+	category: "Electronics",
+	model: '7G5-00001',
+	sku: '4979879',
+	img: "http://google.com",
+	price: '699.99',
+	pickup_available: true,
+	description: "Samsung S7 is the perfect productivity device for school, home, and on the go. It features a 10.8\" Full HD touchscreen display with 1920 x 1280 resolution and is fast, responsive, and can run everything you need. With a thin, light frame that weighs less than 1.5 pounds, it’s the perfect size to take with you anywhere. The optional Surface Pen (sold separately) feels just like an actual pen so it’s easy to draw, take notes, or write music. ",
+	release_date: ISODate("2015-09-01"),
+	specifications: {
+		height: "5.36 inches",
+		width: '2.52 inches',
+		weight: "11.92 ounces",
+		battery_life: "10 hours",
+		display_type: "LCD",
+		touch_screen: "true",
+		memory: "4gb",
+		processor_type: "Snapdragon"
+	},
+	reviews: [
+		{
+			subject: "Great Phone!",
+			body: "This is a great product very simple to use",
+			rating: "4.5",
+			user: "someuser01",
+			date: ISODate("2015-09-02"),
+			would_recommend: true
+
+		},{
+			subject: "Mixed Reviews!",
+			body: "This is a great product but difficult to use",
+			rating: "2.5",
+			user: "someuser03",
+			date: ISODate("2015-09-04"),
+			would_recommend: false
+
+		},{
+			subject: "Good Phone!",
+			body: "This is a good product ",
+			rating: "3.5",
+			user: "someuser02",
+			date: ISODate("2015-11-02"),
+			would_recommend: true
+
+		},{
+			subject: "Okayish Phone!",
+			body: "Not very happy",
+			rating: "1.5",
+			user: "someuser07",
+			date: ISODate("2016-02-05"),
+			would_recommend: false
+
+		}
+	],
+	protection_services: ['damage', 'battery', 'power']
+})
