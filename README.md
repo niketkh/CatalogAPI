@@ -1,12 +1,14 @@
 # CatalogAPI
 A very basic Catalog API built using MongoDB, NodeJs, Express, MongoJs
 
+Import products.json to mongodb to work with sample data
+
 Database: catalog
 Collection: products
 
-# Import products.json to mongodb to work with sample data
 
-# URL Requests
+
+URL Requests
 GET     localhost/products            Lists all products
 GET     localhost/products/:id        List details of specific product
 POST    localhost/products            Add product to catalog 
